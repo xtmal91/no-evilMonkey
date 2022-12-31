@@ -1,0 +1,135 @@
+/*CSS for ShyMonkey_JS-Project*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-image: url("jungleImage.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+margin: 0;
+padding: 0;
+
+}
+
+
+/*container for image. Trying to center it to body like I see in webflow.*/
+.imageContain {
+	display: block;
+/*	display: flex;
+	flex-direction: row;*/
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	border: solid 5px black;
+	margin: 0%;
+	padding: 0%;
+}
+
+
+/*container for Header, Pics, 3 lines of text.*/
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	margin: auto ;
+}
+
+
+.emoji {
+	font-size: 13em;
+	cursor: pointer;
+	user-select: none;
+}
+
+.closed {
+	display: none;
+}
+
+.open {
+	display: none;
+}
+
+.speak {
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
+
+.hText {
+	font-family: cursive;
+	font-weight: 700;
+	font-size: 3em;
+	font-variant: small-caps;
+	background-color: rgba(255, 255, 255, 0.65);
+	text-align: center;
+	padding: 5px;
+	margin-top: 5%;
+}
+
+.allText {
+	font-family: Zen Dots;
+	font-size: 1.8em;
+	font-variant: small-caps;
+	color: white;
+	background-color:#F03F52;
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 1%;
+}
+
+.allPg {
+	font-size: 1.5em;
+	font-weight: 400;
+	background-color: rgba(255, 255, 255, 0.65);
+	margin-top: 2%;
+	color: #F03F52;
+}
+
+/*.pg2 {
+	font-size: 1.5rem;
+	background-color: rgba(35, 206, 146, 0.9) ;
+	margin-bottom: 2%;
+}*/
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+/*.bImage {
+	background-image: url("jungleImage.png");
+	background-repeat: no-repeat;
+	background-size: 500px 500px;
+	padding: 50px;
+}
+*/
+
+/*Original red and grey gradient on background.*/
+/*background: linear-gradient(to right, rgb(226, 64, 64), rgb(74, 79, 76));*/
+
+
+/*Me trying shit*/
+/*.imageContain {
+	display: block;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}*/
